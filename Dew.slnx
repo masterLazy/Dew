@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Dew.vcxproj" Id="b78e908a-e6e5-4781-9bdf-d3d12c3bdf61" />
+</Solution>
