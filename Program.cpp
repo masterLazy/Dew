@@ -19,6 +19,10 @@ void Foo(int i) {
 }
 
 int main() {
+	return 0;
+}
+
+void TestEvent() {
 	MyEvent += Foo;
 	MyEvent += [](int i) {
 		if (i == 114514) {
@@ -31,5 +35,4 @@ int main() {
 	MyEvent.Invoke(114514);
 
 	MyEvent.Invoke(200);
-	return 0;
 }
